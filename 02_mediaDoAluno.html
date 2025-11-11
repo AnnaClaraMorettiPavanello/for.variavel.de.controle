@@ -9,11 +9,16 @@
     //ENTRADA
     
     let qntdNotas = Number(prompt(`Informe quantas notas o aluno obteve.`));
-
+    let soma = 0;
+    
     //PROCESSAMENTO
-    
-    
+
+    for (let i = 1;i <= qntdNotas;i++) {
+        soma+=Number(prompt(`Informe as notas do aluno.`));
+    }
 
     //SAÍDA
+
+    alert(`A média do aluno vai ser de: ${soma/qntdNotas}.`);
 
 </script>
